@@ -43,12 +43,15 @@ a{
   color: white;
 }
 
+p{
+  color: black;
+  font-size: 24px;
+}
+
 #principal{
 	background: #82c3a6;
   height: 10%;
   text-align: center;
-
-
 }
 
 .adaptativa-porcentaje{
@@ -58,7 +61,37 @@ a{
   margin: 5%;
 }
 
+#segundaria{
+  background-color: #d5c75f;
+  height: 10%;
+  text-align: center;
+}
 
+.adaptativa-porcentaje1{
+	width:90%;
+  height: 90%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 5%;
+}
+
+.adaptativa-porcentaje2{
+	width:90%;
+  height: 90%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 5%;
+}
+
+.seg_izq{
+  background-color: #d5c75f;
+  float: left;
+  width: 50%;
+}
+
+.seg_der{
+  background-color: #d5c75f;
+  float: right;
+  width: 50%;
+}
 
 footer {
 	font-size: 1.0em;
