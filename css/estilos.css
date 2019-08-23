@@ -1,0 +1,18 @@
+body {
+	font-family: 'Dancing Script', cursive;
+  color: white;
+	background-color: #02010a;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#contenido{
+  max-width: 900px;
+  text-align: center;
+}
+
+header {
+	height: 100px;
+	background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
