@@ -6,11 +6,6 @@ body{
   margin-left: 5%;
 }
 
-#contenido{
-  max-width: 900px;
-  text-align: center;
-}
-
 header{
 	height: 150px;
 	background-color: #5b7989;
@@ -48,7 +43,20 @@ a{
   color: white;
 }
 
+#principal{
+	background: #82c3a6;
+  height: 10%;
+  text-align: center;
 
+
+}
+
+.adaptativa-porcentaje{
+	width:90%;
+  height: 90%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 5%;
+}
 
 
 
