@@ -54,7 +54,7 @@ p{
   text-align: center;
 }
 
-.adaptativa-porcentaje{
+#adaptativa-porcentaje{
 	width:90%;
   height: 90%;
   box-shadow: 2px 2px 2px #02010a;
@@ -67,16 +67,16 @@ p{
   text-align: center;
 }
 
-.adaptativa-porcentaje1{
-	width:90%;
-  height: 90%;
+#adaptativa-porcentaje1{
+	width:80%;
+  height: 80%;
   box-shadow: 2px 2px 2px #02010a;
   margin: 5%;
 }
 
-.adaptativa-porcentaje2{
-	width:90%;
-  height: 90%;
+#adaptativa-porcentaje2{
+	width:80%;
+  height: 80%;
   box-shadow: 2px 2px 2px #02010a;
   margin: 5%;
 }
@@ -91,6 +91,20 @@ p{
   background-color: #d5c75f;
   float: right;
   width: 50%;
+}
+
+#adaptativa-porcentaje1:hover{
+  transform: rotate(10deg);
+	transition: 0.5s;
+	border: 2px solid black;
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+
+#adaptativa-porcentaje2:hover{
+  transform: translateY(-5px) translateX(20px);
+	transition: 0.5s;
+	border: 2px solid black;
+  box-shadow: 2px 2px 2px #82c3a6;
 }
 
 footer {
