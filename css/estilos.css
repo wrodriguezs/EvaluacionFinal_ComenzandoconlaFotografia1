@@ -32,6 +32,7 @@ h2{
 	color: black;
 	padding: 5px;
 	float: left;
+	margin: O;
 
 }
 
@@ -59,7 +60,8 @@ a{
 
 p{
   color: black;
-  font-size: 24px;
+  font-size: 20px;
+	margin: 0;
 }
 
 #principal{
@@ -148,4 +150,82 @@ footer {
 
 .c4{
   width: 25%;
+}
+
+@media (min-width: 420px) and (max-width: 599px){
+	.c1, .c2, .c3, .c4 {
+			width: 100%;
+		}
+
+		section{
+			display: inline-block;
+		}
+
+		#principal {
+			width: 100%;
+		}
+
+		.seg_der, .seg_izq {
+			width: 100%;
+		}
+
+		.contenido {
+		width: 100%;
+		}
+
+		ul{
+			margin: 0;
+		}
+
+		h2{
+			font-size: 55px;
+		}
+
+		p{
+			font-size: 25px;
+		}
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+	.c2, .c3, .c4, .c1 {
+			width: 50%;
+		}
+
+		#principal {
+			width: 100%;
+		}
+
+		section{
+			display: inline-block;
+		}
+
+		.seg_der, .seg_izq {
+			width: 100%;
+		}
+
+		ul{
+			margin: 0;
+		}
+
+		h2{
+			font-size: 55px;
+		}
+
+		p{
+			font-size: 25px;
+		}
+}
+
+@media (min-width: 900px) {
+
+		.c1, .c2, .c3, .c4 {
+		width: 25%;
+		}
+
+		.contenido {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
 }
