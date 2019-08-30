@@ -310,6 +310,8 @@ footer {
 
 }
 
+/* Animaciones */
+
 @-webkit-keyframes slidein {
 	0% {
 		position: relative;
