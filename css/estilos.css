@@ -1,3 +1,5 @@
+/* CSS GENERAL */
+
 body{
 	font-family: 'Dancing Script', cursive;
   color: white;
@@ -97,6 +99,62 @@ p{
   margin: 3%;
 }
 
+/* CSS paisaje.html */
+
+#paisaje_1{
+	width:80%;
+  height: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 3%;
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+	filter: blur(10px);
+}
+
+#paisaje_2{
+	width:80%;
+  height: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 3%;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+#paisaje_3{
+	width:80%;
+  height: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 3%;
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+	filter: sepia(90%);
+}
+
+#paisaje_4{
+	width:80%;
+  height: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 3%;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+#paisaje_5{
+	width:80%;
+  height: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 3%;
+}
+
+#paisaje_6{
+	width:80%;
+  height: 80%;
+  box-shadow: 2px 2px 2px #02010a;
+  margin: 3%;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+
+/* CSS index.html */
+
 .seg_izq{
   float: left;
   width: 50%;
@@ -151,6 +209,8 @@ footer {
 .c4{
   width: 25%;
 }
+
+/* media quieries */
 
 @media (min-width: 420px) and (max-width: 599px){
 	.c1, .c2, .c3, .c4 {
