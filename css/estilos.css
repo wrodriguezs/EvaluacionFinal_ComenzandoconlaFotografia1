@@ -309,3 +309,27 @@ footer {
 		}
 
 }
+
+@-webkit-keyframes slidein {
+	0% {
+		position: relative;
+		margin-top: 150%;
+	}
+	60% {
+		position: relative;
+		margin-top: -5%;
+	}
+	100% {
+		position: relative;
+		margin-top: 0px;
+	}
+}
+
+header{
+	animation-name: slidein;
+	animation-duration: 0.5s;
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0,5s;
+}
