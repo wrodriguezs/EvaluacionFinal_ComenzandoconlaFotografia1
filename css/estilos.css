@@ -99,9 +99,9 @@ p{
   margin: 3%;
 }
 
-/* CSS paisaje.html */
+/* CSS paisaje.html  y retratos.html */
 
-#paisaje_1{
+#img_1{
 	width:80%;
   height: 80%;
   box-shadow: 2px 2px 2px #02010a;
@@ -110,7 +110,7 @@ p{
 	filter: blur(10px);
 }
 
-#paisaje_2{
+#img_2{
 	width:80%;
   height: 80%;
   box-shadow: 2px 2px 2px #02010a;
@@ -119,7 +119,7 @@ p{
 	filter: grayscale(100%);
 }
 
-#paisaje_3{
+#img_3{
 	width:80%;
   height: 80%;
   box-shadow: 2px 2px 2px #02010a;
@@ -128,7 +128,7 @@ p{
 	filter: sepia(90%);
 }
 
-#paisaje_4{
+#img_4{
 	width:80%;
   height: 80%;
   box-shadow: 2px 2px 2px #02010a;
@@ -137,14 +137,14 @@ p{
 	filter: grayscale(100%);
 }
 
-#paisaje_5{
+#img_5{
 	width:80%;
   height: 80%;
   box-shadow: 2px 2px 2px #02010a;
   margin: 3%;
 }
 
-#paisaje_6{
+#img_6{
 	width:80%;
   height: 80%;
   box-shadow: 2px 2px 2px #02010a;
